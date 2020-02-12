@@ -5,8 +5,10 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
+            "preLaunchTask": "npm: build",
             "skipFiles": ["<node_internals>/**"],
-            "program": "${workspaceFolder}/dist/index.js"
+            "program": "${workspaceFolder}/dist/index.js",
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }
