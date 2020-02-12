@@ -1,7 +1,7 @@
 import { Rectangle, Circle, Geometry } from './library';
 
 const geometries: Geometry[] = [];
-geometries.push(new Rectangle(6, 4));
+geometries.push(new Rectangle(7, 4));
 geometries.push(new Circle(3));
 
 console.log(`Geometries: ${geometries.length}`);
